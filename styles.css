@@ -20,7 +20,7 @@ body {
   padding: 0;
   font-family: "Till-Normal", serif;
   font-weight: 300;
-  background: #efefef;
+  background: #f7f7f7;
 }
 aside.font-info {
   font-size: 0.4rem;
@@ -63,7 +63,10 @@ p {
 button {
   height: 2rem;
   padding: 0 2rem;
-  border: 1px solid;
+  border: none;
   font-size: 0.8rem;
+  font-family: "Till-Normal";
   text-transform: uppercase;
+  background: white;
+  border-radius: .1rem;
 }
