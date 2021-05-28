@@ -1,6 +1,0 @@
-@font-face {
-  font-family: 'Till-Normal';
-  src: url('Till-Normal.woff'); /* IE9 Compat Modes */
-  src: url('Till-Normal.woff2') format('woff2'), /* Super Modern Browsers */
-       url('Till-Normal.woff') format('woff'); /* Pretty Modern Browsers */
-}
