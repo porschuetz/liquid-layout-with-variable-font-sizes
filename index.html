@@ -21,7 +21,16 @@
       <header>
         <h1>Title</h1>
         <h3>Subtitle</h3>
-        <button onclick="alert('Call to action')">Call to action</button>
+        <script>
+          function callToAction() {
+            const action = prompt("Enter your favorite action", "Signing");
+            document.querySelector("h1").innerText = action;
+            // alert(action);
+          }
+        </script>
+        <button onclick="callToAction()">
+          Call to action
+        </button>
       </header>
       <section>
         <div class="section-inner">
@@ -43,7 +52,7 @@
       </section>
       <section class="section--background">
         <img
-          src="https://assets.bigcartel.com/product_images/306346380/46C063F9-8273-47D2-AC55-08CB7AFD591A.jpeg?auto=format&fit=max&h=1000&w=1000"
+          src="https://res.cloudinary.com/ddqo2y6zh/image/upload/v1622407925/visrel007-lfw/lfw-stencil.png"
           alt=""
         />
       </section>
